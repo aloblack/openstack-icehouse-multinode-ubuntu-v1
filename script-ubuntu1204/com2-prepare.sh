@@ -116,10 +116,10 @@ auth_strategy = keystone
 rpc_backend = rabbit
 rabbit_host = controller
 rabbit_password = $RABBIT_PASS
-my_ip = $COM1_MGNT_IP
+my_ip = $COM2_MGNT_IP
 vnc_enabled = True
 vncserver_listen = 0.0.0.0
-vncserver_proxyclient_address = $COM1_MGNT_IP
+vncserver_proxyclient_address = $COM2_MGNT_IP
 novncproxy_base_url = http://$CON_EXT_IP:6080/vnc_auto.html
 glance_host = controller
 [database]
@@ -222,7 +222,7 @@ tunnel_id_ranges = 1:1000
 [ml2_type_vxlan]
 
 [ovs]
-local_ip = $COM1_DATA_VM_IP
+local_ip = $COM2_DATA_VM_IP
 tunnel_type = gre
 enable_tunneling = True
 
