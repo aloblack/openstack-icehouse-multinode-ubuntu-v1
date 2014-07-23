@@ -37,7 +37,7 @@ dns-nameservers 8.8.8.8
 # DATA NETWORK
 auto eth2
 iface eth2 inet static
-address $COM1_DATA_VM_IP
+address $COM2_DATA_VM_IP
 netmask $NETMASK_ADD
 
 EOF
