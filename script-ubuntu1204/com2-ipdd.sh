@@ -4,7 +4,7 @@ source config.cfg
 
 echo "Cau hinh hostname cho COMPUTE2 NODE"
 sleep 3
-echo "compute1" > /etc/hostname
+echo "compute2" > /etc/hostname
 hostname -F /etc/hostname
 
 
